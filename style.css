@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #181818;
+  width: 80%;
+  margin: auto;
+}
+p {
+  color: #666;
+}
+header {
+  background: #ededed;
+  height: 120px;
+  padding: 20px;
+}
+.header_left {
+  width: 50%;
+  float: left;
+
+}
+.header_left img {
+  width: 100px;
+  height: 100px;
+  float: left;
+  border-radius: 50%;
+}
+.header_left div {
+  display: inline-block;
+}
+.header_left div h2 {
+  color: #222;
+}
+.header_left div h3 {
+  color: #222;
+}
+.header_right {
+  width: 50%;
+  float: left;
+  text-align: right;
+}
+.header_right div {
+  text-align: left;
+  display: inline-block;
+}
+
+.cv_content {
+  background: #f3f3f3;
+  padding: 20px;
+}
+
+.row {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #ddd;
+  overflow: hidden;
+}
+.row:last-child {
+  padding-bottom: 0;
+  border: none;
+}
+.row .column_left {
+  width: 30%;
+  float: left;
+}
+.row .column_left h2 {
+  color: #333;
+  font-size: 20px;
+  font-style: italic;
+}
+.row .column_right {
+  width: 70%;
+  float: left;
+  padding-left: 20px;
+}
+
+.row .column_right .column_same {
+  width: 33%;
+  float: left;
+}
+.row .column_right form input{
+  display: block;
+ 
+}
+.row .column_right form label{
+  display: block;
+
+}
